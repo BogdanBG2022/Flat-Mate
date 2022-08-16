@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+}
+header{
+    background: linear-gradient(rgba(69, 89, 105, 0.95), rgba(69, 89, 105, 0.95)), url(../img/header-bg.jpg) top center;
+    background-size: cover;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+.home{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home h1{
+    font-size: 28px;
+}
+.logo{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right,#57b287 50%, #67bf95 50%);
+    border-radius: 50%;
+}
+.header-line   {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login p{
+    margin-right: 15px;
+    color: #c9ced7;
+    font-weight: 250;
+    font-style: italic;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: #3d4b60;
+    padding: 10px 15px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.message{
+    width: 30%;
+}
+.message img{
+    width: 100%;
+}
+.text img{
+    width: 20%;
+}
+.text-wrap{
+    width: 50%;
+}
+.social{
+    width: 10%;
+}
+.header-text{
+    width: 50%;
+}
+.social div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #67bf95;
+}
+.pencil span{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/pencil.png");
+    background-size: cover;
+}
+.fb span{
+    width: 14px;
+    height: 30px;
+    background-image: url("../img/fb.png");
+    background-size: cover;
+}
+.pencil:hover, 
+.fb:hover{
+    background-color: #67bf95;
+}
+.pencil:hover span{
+    background-image: url("../img/hov_pencil.png");
+}
+.fb:hover span{
+    background-image: url("../img/hov_fb.png");
+}
+.app{
+    background-color: #52ad81;
+}
+.app-title{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
+.app-title p{
+    text-align: center;
+    width: 82%;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.header-fotter{
+    display: flex;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 7%;
+    top: 30%;
+    position: absolute;
+    border: 2px solid #b3dbc8;;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.app-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+table{
+    background-color: white;
+}
+.table1 h5{
+    color: #37414e;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-align: center;
+}
+.table-name{
+    width: 40%;
+    margin: 0 auto;
+}
+.table-name p{
+    text-align: center;
+    font-family: "Roboto";
+    color: #858b93;
+}
+.slider img{
+    width: 10px;
+}
+.right{
+    right: 7%;
+    left: auto;
+}
+.right img{
+    transform: rotate(180deg);
+}
+.table1 thead{
+    background-color: #4b596b;
+}
+.table1 tbody{
+    background-color: #e9edf3;
+}
+.slider:hover{
+    background-color: black;
+}
+table{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+.table2 thead{
+    background-color: #58ad52;
+}
+.table2 tbody{
+    background-color: #e9edf3;
+}
+.table3 thead{
+    background-color: #52a1ac;
+}
+.table3 tbody{
+    background-color: #e9edf3;
+}
+.table-ozer{
+    display: flex;
+    justify-content: center;
+}
+table thead{
+    color: white;
+}
