@@ -4,10 +4,20 @@ body{
 header{
     background: linear-gradient(rgba(69, 89, 105, 0.95), rgba(69, 89, 105, 0.95)), url(../img/header-bg.jpg) top center;
     background-size: cover;
+    padding-bottom: 250px;
 }
 .wrapper{
     margin: 0 auto;
     width: 70%;
+}
+.header-text p{
+    font-size: 20px;
+    color: #c5d2e5;
+    font-family: "Roboto";
+}
+.header-text h2{
+    color: #fff;
+    font-size: 30px;
 }
 .home{
     color: white;
@@ -73,8 +83,9 @@ header{
 .social{
     width: 10%;
 }
-.header-text{
-    width: 50%;
+.header-text p{
+    margin-bottom: 60px;
+    width: 60%;
 }
 .header-text a{
     text-decoration: none;
@@ -134,6 +145,7 @@ h4{
     width: 82%;
     font-size: 20px;
     font-family: "Roboto";
+    margin-bottom: 60px;
 }
 .header-fotter{
     display: flex;
@@ -167,7 +179,7 @@ table{
     text-align: center;
 }
 .table-name{
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
 }
 .table-name p{
@@ -359,5 +371,30 @@ footer{
     font-size: 20px;
 }
 thead td{
-    font-size: 20px;
+    font-size: 25px;
+}
+.fb{
+    margin-top: 20px;
+}
+.text{
+    align-items: center;
+    padding-top: 100px;
+}
+.text p{
+    width: 75%;
+    color: #4b596c;
+    line-height: 25px;
+}
+.text h2{
+    color: #37414e;
+}
+.app-title h4{
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.app-img img{
+    border-radius: 10px 10px 0 0;
+}
+.table-name h5{
+    font-size: 30px;
 }
