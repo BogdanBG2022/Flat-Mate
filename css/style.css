@@ -350,3 +350,14 @@ footer{
     color: #6d737b;
     font-size: 20px;
 }
+.table2 th{
+    color: #58ad52;
+    font-size: 20px;
+}
+.table3 th{
+    color: #52a1ad;
+    font-size: 20px;
+}
+thead td{
+    font-size: 20px;
+}
